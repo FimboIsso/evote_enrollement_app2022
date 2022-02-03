@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <!--<item-->
+        <!--android:id="@+id/action_search"-->
+        <!--android:title="Recherche"-->
+        <!--android:icon="@mipmap/ic_searc"-->
+        <!--app:showAsAction="ifRoom"-->
+        <!--app:actionViewClass="android.widget.SearchView"/>-->
+
+    <item
+        android:icon="@mipmap/ic_menu"
+        app:showAsAction="ifRoom"
+        android:title="menu">
+
+        <menu>
+            <item
+                android:id="@+id/action_serveur"
+                android:title="Server configuration"
+                android:icon="@mipmap/ic_serveur"/>
+
+            <item
+                android:id="@+id/action_liste_etudiant"
+                android:title="Student list"
+                android:icon="@mipmap/ic_list"/>
+
+            <item
+                android:id="@+id/action_about_us"
+                android:title="About us"
+                android:icon="@mipmap/ic_about_ous"/>
+
+            <item
+                android:id="@+id/action_exit"
+                android:title="Exit"
+                android:icon="@mipmap/ic_exit"/>
+        </menu>
+
+    </item>
+
+</menu>

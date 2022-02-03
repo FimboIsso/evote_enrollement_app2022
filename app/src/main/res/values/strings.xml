@@ -1,0 +1,82 @@
+<resources>
+    <string name="app_name">Enrollement Vote UCBC 2019</string>
+
+
+    <string-array name="spn_promotion">
+        <item>L1</item>
+        <item>L2</item>
+        <item>L3</item>
+        <item>L4</item>
+    </string-array>
+
+    <string-array name="spn_faculte">
+        <item>FASA</item>
+        <item>FASIC</item>
+        <item>FASEG</item>
+        <item>FATHEO</item>
+        <item>FADROIT</item>
+    </string-array>
+
+    <string-array name="spn_login">
+        <item>Admin</item>
+        <item>CEUI</item>
+        <item>Others</item>
+    </string-array>
+
+
+    <string-array name="spn_promotion_filter">
+        <item>All</item>
+        <item>L1</item>
+        <item>L2</item>
+        <item>L3</item>
+        <item>L4</item>
+    </string-array>
+
+    <string-array name="spn_faculte_filter">
+        <item>All</item>
+        <item>FASA</item>
+        <item>FASIC</item>
+        <item>FASEG</item>
+        <item>FATHEO</item>
+        <item>FADROIT</item>
+    </string-array>
+
+    <string-array name="spn_departement_fasa">
+        <item>GI</item>
+        <item>GELM</item>
+    </string-array>
+
+    <string-array name="spn_departement_economie">
+        <item>Gestion finance</item>
+        <item>Marketing</item>
+        <item>Agri busness</item>
+    </string-array>
+
+    <string-array name="spn_departement_communication">
+        <item>Mutimedia</item>
+        <item>Journalisme</item>
+    </string-array>
+
+    <string-array name="spn_departement_theologie">
+        <item>Leadership</item>
+        <item>Postoral</item>
+    </string-array>
+
+    <string-array name="spn_departement_droit">
+        <item>Droit</item>
+        <item>Droit humain</item>
+    </string-array>
+
+
+    <string-array name="empty_lv">
+        <item>Empty, none student</item>
+    </string-array>
+
+
+    <string-array name="menu_contextuel">
+        <item>Rename</item>
+        <item>Delete</item>
+        <item>Details</item>
+        <!--<item>Detail</item>-->
+    </string-array>
+</resources>

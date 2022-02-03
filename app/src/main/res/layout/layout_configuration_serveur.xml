@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:textColor="#fff"
+        android:textAlignment="center"
+        android:text="Server Configuration"
+        android:background="#0f416c"/>
+
+    <EditText
+        android:id="@+id/ed_adresse_serveur"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:textColor="#000"
+        android:textStyle="italic"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:hint="Server adress" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/btn_cancel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cancel"
+            android:textColor="#ffffff"
+            android:background="@drawable/bg_button"
+            android:layout_weight="1"
+            android:layout_marginRight="4dp"/>
+        <Button
+            android:id="@+id/btn_confirmer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Confirme"
+            android:textColor="#ffffff"
+            android:layout_marginLeft="4dp"
+            android:background="@drawable/bg_button"
+            android:layout_weight="1"/>
+    </LinearLayout>
+</LinearLayout>

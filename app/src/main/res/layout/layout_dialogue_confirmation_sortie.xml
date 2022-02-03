@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:textColor="#fff"
+        android:textAlignment="center"
+        android:text="Warning"
+        android:background="#0f416c"/>
+
+    <TextView
+        android:id="@+id/txt_message"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:textColor="#000"
+        android:textStyle="italic"
+        android:text="Do you really want to exit ??"
+        android:textAlignment="center"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/btn_cancel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cancel"
+            android:textColor="#ffffff"
+            android:background="@drawable/bg_button"
+            android:layout_weight="1"
+            android:layout_marginRight="4dp"/>
+        <Button
+            android:id="@+id/btn_confirmer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Confirme"
+            android:textColor="#ffffff"
+            android:layout_marginLeft="4dp"
+            android:background="@drawable/bg_button"
+            android:layout_weight="1"/>
+    </LinearLayout>
+</LinearLayout>
