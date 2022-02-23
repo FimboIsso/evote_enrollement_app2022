@@ -230,7 +230,7 @@ public class affichEtudiantActivity extends AppCompatActivity implements Adapter
                 String adresseIP = shared.getString("adresseServeur","");
                // Toast.makeText(affichEtudiantActivity.this,adresseIP,Toast.LENGTH_LONG).show();
                 new uplaodEtudiant(affichEtudiantActivity.this,"" +
-                        "http://"+adresseIP+"/vote2019/uploadElecteur/upload.php").execute();
+                        "http://"+adresseIP+"/electeurs").execute();
                 break;
 
             case R.id.action_delete:
